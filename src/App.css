@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+.image{
+  margin-top: -2%;
+  position:relative;
+  height: 105vh;
+}
+
+.hero{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.heroTxtContainer{
+  width: 60%;
+}
+.heroTxt{
+  display: flex;
+  flex-direction: column;
+  font-size: 120px;
+}
+
+.textBox{
+  background-color: rgb(212, 212, 212);
+  text-transform: uppercase;
+  color: black;
+  padding: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+}
+
+.rustTxt{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 120px;
+  letter-spacing: 20px;
+  width: 50vw;
+}
+
+.splash{
+  background: rgb(180,58,97);
+  background: linear-gradient(355deg, rgba(180,58,97,1) 0%, rgba(253,73,29,1) 50%, rgba(252,235,69,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.txtHeader{
+  
+}
+
+.borderSplash{
+  border-bottom:2px;
+  border-style: solid;
+  border-image: 
+  linear-gradient(355deg, rgba(180,58,97,1) 0%, rgba(253,73,29,1) 50%, rgba(252,235,69,1) 100%);;
+}
