@@ -185,6 +185,7 @@ a{
   }
   .projectImg{
     width: 150%;
+    height: 150%;
   }
   .contactContainer{
     flex-direction: column;
