@@ -168,3 +168,25 @@ a{
   text-decoration: none;
   color: white;
 }
+
+@media screen and (max-width: 910px){
+  .portfolioPhotoContainer{
+    display: none;
+  }
+  .portfolioJpg{
+    display: none;
+  }
+  .projectHolder{
+    flex-direction: column;
+  }
+  .projectCard{
+    width: 100%;
+    margin-top: 15%;
+  }
+  .projectImg{
+    width: 150%;
+  }
+  .contactContainer{
+    flex-direction: column;
+  }
+}
