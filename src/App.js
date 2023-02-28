@@ -5,8 +5,12 @@ import TextBox from './components/textbox';
 import Rust from './components/rust';
 import Brick from './components/brick';
 import Sunset from './components/sunset';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    document.title='Mitchell Lemieux'
+  },[]);
   return (
     <div className="App">
       <Cliff></Cliff>
