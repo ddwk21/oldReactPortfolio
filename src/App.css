@@ -177,6 +177,14 @@ a{
 }
 
 @media screen and (max-width: 910px){
+  .techs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rustContainer{
+    flex-direction: column;
+  }
   .portfolioPhotoContainer{
     display: none;
   }
