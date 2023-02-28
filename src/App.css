@@ -45,7 +45,7 @@
 
 .hero{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
 }
 .heroTxtContainer{
@@ -99,10 +99,12 @@
 }
 
 .portfolioJpg{
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 800px;
   z-index: 5;
   margin-left:2vw;
+  margin-top:0;
+  margin-bottom:-2%;
 }
 
 .portfolioPhotoContainer{
@@ -176,6 +178,14 @@ a{
   .heroTxt{font-size: 110px;}
 }
 
+@media screen and (max-width: 1050px){
+  .heroTxt{font-size: 90px;}
+}
+
+
+@media screen and (max-width: 988px){
+  .heroTxt{font-size: 75px;}
+}
 @media screen and (max-width: 910px){
   .techs{
     display:flex;
@@ -184,6 +194,11 @@ a{
   }
   .rustContainer{
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .rustTxt{
+    align-items: center;
   }
   .portfolioPhotoContainer{
     display: none;
