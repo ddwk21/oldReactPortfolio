@@ -10,11 +10,11 @@ function App() {
   return (
     <div className="App">
       <Cliff></Cliff>
-      <TextBox header="I'm Mitch" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum sed arcu non odio euismod. Pharetra diam sit amet nisl suscipit adipiscing bibendum. Ornare arcu odio ut sem nulla pharetra diam sit amet. Integer vitae justo eget magna fermentum iaculis eu non. Egestas pretium aenean pharetra magna. Varius vel pharetra vel turpis nunc. Amet venenatis urna cursus eget nunc scelerisque. Sem integer vitae justo eget magna fermentum iaculis eu non. Tristique nulla aliquet enim tortor at auctor urna."/>
+      <TextBox header="I'm Mitch" content="I'm a full-stack developer embarking on a new journey into the space. Driven by passion for problem solving and learning, I first started experimenting with coding at the age of 12."/>
       <Rust></Rust>
-      <TextBox header="Projects" content="Here's some stuff I've made. I hope you like it."/>
+      <TextBox header="Projects" content="Here's a few things I've built. I hope you like them."/>
       <Brick></Brick>
-      <TextBox header="placeholder"/>
+      <TextBox header="Contact Me" content="I'm always working on something new. To find out more about whatever I'm building, or inquire about hiring me, please click one of the links below!"/>
       <Sunset></Sunset>
 
 

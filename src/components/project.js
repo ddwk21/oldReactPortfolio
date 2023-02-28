@@ -2,15 +2,15 @@ import React from 'react';
 
     
 const Project = (props) => {
+    let image = props.image
+    let text = props.text
 
     return(
         <div className='projectCard'>
-            <div className='projectImage'>
-                <div className='projectTxt'>
-                
-                </div>
+            <img className='projectImage' src={image}></img>
+            <div className='projectTxt'>
+                <p>{text}</p>
             </div>
-
         </div>
     )
 }
