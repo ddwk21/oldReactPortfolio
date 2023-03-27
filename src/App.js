@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Cliff></Cliff>
-      <TextBox header="I'm Mitch" content="I'm a full-stack developer embarking on a new journey into the space. Driven by passion for problem solving and learning, I first started experimenting with coding at the age of 12."/>
+      <TextBox header="I'm Mitch" content="I'm a full-stack developer driven by passion for problem solving and learning, I wrote my first code 15 years ago and have since become proficient in Javascript, C#, and Java, as well as a wide variety of libraries, tools, and frameworks."/>
       <Rust></Rust>
       <TextBox header="Projects" content="Here's a few things I've built. I hope you like them."/>
       <Brick></Brick>
